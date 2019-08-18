@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Raviga Hotels | Contact</title>
+    <meta
+      name="description"
+      content="Welcome to the most extraordinary hotel in Mountain View,California"
+    />
+    <meta
+      name="keywords"
+      content="hotel,California hotel,Mountain View hotel"
+    />
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="/static/css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div id="container">
+          <h1 class="logo"><a href="./">Raviga</a></h1>
+          <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="./About">About</a></li>
+            <li><a class="current" href="./Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="contact">
+      <div id="container">
+        <form action="/Hotel-Website/Contact" method="POST">
+          <h1 class="heading"><span class="mark-content">Contact</span> Us</h1>
+          <p>Please fill out the form below to contact us</p>
+          <div class="entries">
+            <label for="first_name">First Name:</label>
+            <input
+              class="inputs"
+              type="text"
+              name="First name"
+              id="first_name"
+            />
+          </div>
+          <div class="entries">
+            <label for="last_name">Last Name:</label>
+            <input type="text" class="inputs" name="Last name" id="last_name" />
+          </div>
+          <div class="entries">
+            <label for="email_addr">Email:</label>
+            <input class="inputs" type="email" name="Email" id="email_addr" />
+          </div>
+          <div class="entries">
+            <label for="message">Message:</label>
+            <textarea
+              name="Message"
+              class="inputs"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <input type="submit" value="Submit" class="btn1"/>
+        </form>
+      </div>
+    </section>
+    <section id="info">
+        <div class="box bg-secondary">
+          <i class="material-icons">location_on</i>
+          <h3>Location</h3>
+          <p>50 Main-st,Mountain View,California</p>
+        </div>
+        <div class="box ">
+          <i class="material-icons">phone</i>
+          <h3>Phone Number</h3>
+          <p>235-444-699</p>
+        </div>
+        <div class="box bg-secondary">
+          <i class="material-icons">email</i>
+          <h3>Email Address</h3>
+          <p>frontdesk@raviga.co</p>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <footer id="foot">
+        <p>Hotel Raviga &copy;2019,All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+#navbar h1 {
+    float: none;
+    text-align: center;
+  }
+  #navbar ul,
+  #navbar ul li {
+    float: none;
+  }
+  #navbar ul li a {
+    padding: 5px;
+    border-bottom: 1px solid gray;
+  }
+  #showcase .showcase-content {
+    color: white;
+    text-align: center;
+    padding: 50px 50px;
+  }
+  #container2 .contain1 {
+    display: none;
+  }
+  #container2 .contain2 {
+    width: 100%;
+  }
+  .box {
+    float: none;
+    width: 100%;
+  }
+  #about_contain2 {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  #about_contain2 img {
+    padding: 10px;
+  }
+  #about_contain1 {
+    width: 100%;
+  }
+  .heading_test {
+    padding: 40px;
+  }
+  #showcase {
+    height: 100%;
+  }
+  #showcase .showcase-content {
+    padding-top: 50px;
+  }
+  

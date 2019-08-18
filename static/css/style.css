@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html,
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+  }
+  #container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0px 10px;
+  }
+  #container-about2 {
+    margin: auto;
+    padding: 0px 20px;
+    max-width: 1100px;
+  }
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  h1,
+  h2,
+  h3 {
+    padding-bottom: 20px;
+  }
+  p {
+    margin-bottom: 10px 0px;
+  }
+  #navbar {
+    background-color: #263238;
+    max-width: 100%;
+    overflow: auto;
+    color: #fff;
+  }
+  #navbar h1 {
+    float: left;
+    text-shadow: 3px 2px grey;
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  #navbar ul {
+    float: right;
+    list-style: none;
+  }
+  #navbar ul li {
+    float: left;
+  }
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  #navbar a {
+    color: white;
+  }
+  #navbar ul li a:hover,
+  #navbar ul li a.current {
+    background-color: #37474f;
+    color: #ffb74d;
+  }
+  #showcase {
+    background-image: url('/static/img/cover_bg.jpg');
+    max-width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #showcase .showcase-content {
+    color: white;
+    text-align: center;
+    padding: 170px;
+  }
+  #showcase .primary-content {
+    color: #ffb74d;
+  }
+  .heading {
+    font-size: 60px;
+    line-height: 1.2em;
+  }
+  .heading_test {
+    font-size: 42px;
+    text-align: center;
+    color: white;
+    padding: 70px;
+    line-height: 1.2em;
+  }
+  #showcase .lead {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+    line-height: 1em;
+  }
+  .btn1 {
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+  }
+  .btn1:hover {
+    color: #333;
+    background-color: #ffb74d;
+  }
+  #container2 {
+    width: 100%;
+    height: 450px;
+  }
+  #container2 .contain1 {
+    background-image: url('/static/img/photo-1.jpg');
+    width: 50%;
+    min-height: 100%;
+    float: left;
+    background-position: center;
+    background-size: cover;
+  }
+  .contain2 {
+    width: 50%;
+    height: inherit;
+    float: right;
+    overflow-y: auto;
+    background-color: #333;
+  }
+  #info {
+    width: 100%;
+  }
+  .box {
+    background-color: #fff;
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    height: inherit;
+  }
+  .bg-secondary {
+    background-color: #ffb74d;
+  }
+  i.material-icons {
+    font-size: 60px;
+  }
+  .clr {
+    clear: both;
+  }
+  #foot {
+    background-color: #263238;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .content {
+    text-align: center;
+    color: white;
+    padding: 60px;
+  }
+  .mark-content {
+    color: #ffb74d;
+  }
+  .lead {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .contain2 .btn2 {
+    color: #ffb74d;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .contain2 .btn2:hover {
+    color: #ffffff;
+    background-color: #616161;
+  }
+  #container-about {
+    padding: 20px 0px;
+    width: 100%;
+    overflow: auto;
+    height: 400px;
+  }
+  #about_contain1 {
+    width: 40%;
+    text-align: center;
+    float: left;
+    background-color: white;
+  }
+  #about_contain2 {
+    width: 50%;
+    float: right;
+    min-height: 100%;
+  }
+  #about_contain2 img {
+    width: 70%;
+    border-radius: 50%;
+  }
+  #about_contain1 h1 {
+    font-size: 40px;
+    line-height: 1.1em;
+  }
+  .mark-content1 {
+    color: #ffb74d;
+  }
+  .lead1 {
+    font-size: 24px;
+    line-height: 1.4em;
+  }
+  #review {
+    height: 100%;
+    background-size: cover;
+    background-image: url('/static/img/review.jpg');
+  }
+  .rev_div {
+    border-radius: 5px;
+    opacity: 0.9;
+    padding: 20px;
+    margin: 40px;
+    min-height: 130px;
+    background: #ffb74d;
+  }
+  #review .rev_div img {
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  #contact {
+    padding: 20px;
+  }
+  .entries {
+    width: 100%;
+    height: 20%;
+    margin: 20px 0;
+  }
+  .inputs {
+    width: 100%;
+    display: block;
+    padding: 5px 0px;
+  }
+  
