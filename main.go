@@ -20,6 +20,7 @@ func main() {
 	r.HandleFunc("/Hotel-Website/Contact", contacthandler).Methods("POST", "GET")
 	http.Handle("/", r)
 	http.ListenAndServe(":3000", nil)
+
 }
 
 func hotelhandler(w http.ResponseWriter, r *http.Request) {
@@ -83,9 +84,11 @@ func contacthandler(w http.ResponseWriter, r *http.Request) {
 			fmt.Println(db1)
 			//email := db1.Email
 			database.Insertintodb(clctn, db1)
-			database.Findfromdb(clctn, "vashishtiv@gmail.com")
+
+			http.Redirect(w, r, "./Contact", 302)
 
 		}
+
 		database.Disconnectdb(client)
 	}
 }
@@ -93,6 +96,6 @@ func contacthandler(w http.ResponseWriter, r *http.Request) {
 //NewRouter .....
 func NewRouter() *mux.Router {
 	r := mux.NewRouter().StrictSlash(true)
-	r.PathPrefix("/static/css").Handler(http.StripPrefix("/static/css/", http.FileServer(http.Dir("./static/css/"))))
+	r.PathPrefix("/static").Handler(http.StripPrefix("/static/", http.FileServer(http.Dir("./static/"))))
 	return r
 }
